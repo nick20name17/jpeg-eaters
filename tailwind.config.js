@@ -4,7 +4,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                primary: 'BoldPixel'
+                primary: 'BoldPixel',
+                secondary: 'Space Mono'
             },
             textColor: {
                 light: '#eeeed1',

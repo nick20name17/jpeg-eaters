@@ -49,7 +49,7 @@ export const Table = () => {
         <section className='mt-10'>
             <div className='flex items-center flex-col max-w-[1000px] mx-auto px-4 text-light'>
                 <h2 className='flex items-center gap-x-10 text-4xl text-center'>
-                    <PackmanIcon className='-rotate-[24deg]' />
+                    <PackmanIcon className='-rotate-[24deg] -z-[1]' />
                     top jpeg eaters
                 </h2>
                 <table className='w-full mt-5'>
