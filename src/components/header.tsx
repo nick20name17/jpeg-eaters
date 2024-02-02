@@ -1,6 +1,7 @@
 import { AboutModal } from './about-modal'
 import { Logo } from './logo'
 import { SecretPanel } from './secret-panel'
+import { Wallet } from './wallet'
 
 export const Header = () => (
     <header className='flex justify-between flex-wrap gap-5 items-center px-5 py-3'>
@@ -19,7 +20,9 @@ export const Header = () => (
                 <li>
                     <AboutModal />
                 </li>
-                <li>eater-wallet</li>
+                <li>
+                    <Wallet />
+                </li>
             </ul>
         </nav>
     </header>
