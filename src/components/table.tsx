@@ -59,8 +59,8 @@ export const Table = () => {
                         <th>qty</th>
                     </thead>
                     <tbody className='flex flex-col gap-y-5 mt-2'>
-                        {tableDate.map((item) => (
-                            <TableRow {...item} />
+                        {tableDate.map((item, i) => (
+                            <TableRow key={i} {...item} />
                         ))}
                     </tbody>
                 </table>

@@ -62,6 +62,7 @@ export const MatrixBackground: React.FC<Props> = ({ timeout }) => {
         <div
             style={{
                 background: '#000000',
+                borderRadius: '12px',
                 overflow: 'hidden',
                 position: 'fixed',
                 height: '100%',
