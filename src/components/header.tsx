@@ -1,5 +1,6 @@
 import { AboutModal } from './about-modal'
 import { Logo } from './logo'
+import { SecretPanel } from './secret-panel'
 
 export const Header = () => (
     <header className='flex justify-between flex-wrap gap-5 items-center px-5 py-3'>
@@ -9,7 +10,9 @@ export const Header = () => (
                 <li>
                     <a href='/'>stats</a>
                 </li>
-                <li>secret panel</li>
+                <li>
+                    <SecretPanel />
+                </li>
                 <li className='pointer-events-none'>
                     mint <span className='text-accent'>(soon)</span>
                 </li>
